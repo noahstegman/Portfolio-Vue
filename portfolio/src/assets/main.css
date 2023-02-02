@@ -13,6 +13,17 @@ body, html{
   height: 100%;
 }
 
+.link:hover{
+  font-size: calc(2vw + 30px);
+  transition: .15s all linear;
+}
+
+
+.link{
+  transition: .15s all linear;
+}
+
+
 #blinky{
   animation: blinker 1s linear infinite;
 }
@@ -26,3 +37,24 @@ body, html{
   opacity: 0;
 }
 }
+
+.link-wrapper{
+  height: calc(100% - 225px);
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.1);
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.arl{
+  width: calc(50% - 2px);
+  height: calc(50% - 2px);
+  transition: all .2 linear;
+  border: 1px #222 solid;
+  text-decoration: none;
+}
+.arl:hover{
+  background-color: rgba(0, 0, 0, 0.15);
+  transition: all .1s linear;
+}
+
