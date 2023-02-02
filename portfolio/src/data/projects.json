@@ -1,7 +1,7 @@
 [
     {
         "name": "Rock Paper Scissors",
-        "url": "https://google.com/",
+        "url": "https://noahstegman.github.io/rockpaperscissors",
         "img": "../src/assets/img/rps.png",
         "description" : "This was a simple website I made using only JQuery/JavaScript to create a came of Rock/Paper/Scissors"
     },
