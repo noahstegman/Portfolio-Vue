@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100;200;300&family=Roboto+Mono:wght@100;200;300;400&display=swap');
+
+body, html{
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(245, 248, 229, 0.486);
+}
+
+#app{
+  width: 100%;
+  height: 100%;
+}
+
+#blinky{
+  animation: blinker 1s linear infinite;
+}
+.blinky{
+  animation: blinker 1s linear infinite;
+}
+
+
+@keyframes blinker{
+50%{
+  opacity: 0;
+}
+}
