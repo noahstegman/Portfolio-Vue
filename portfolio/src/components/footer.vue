@@ -10,7 +10,6 @@
 
 .footer{
     border-top: 1px #222 solid;
-    height: 49px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -18,6 +17,18 @@
     text-align: center;
     font-family: 'Roboto Mono', monospace;
     font-weight: 300;
+}
+
+@media screen and (min-width: 715px) {
+  .footer {
+    height: 49px;
+  }
+}
+
+@media screen and (max-width: 716px) {
+  .footer {
+    display: none;
+  }
 }
 
 </style>

@@ -21,7 +21,7 @@
 
 <template>
     <div class="navigation">
-        <div id="message" >noah stegman</div>
+        <div id="message"><RouterLink to="/">noah stegman</RouterLink></div>
         <div class="nonnav-wrapper" v-show="props.notHome">
             <RouterLink v-for="link in links" :to="`/${link.id}`" class="nonnav">
                 {{ link.id }}
@@ -53,6 +53,15 @@
         height: 100px;
         width: 100%;
         align-items: center
+    }
+
+    a{
+        text-decoration: none;
+        color: #111;
+    }
+
+    .nonnav:hover{
+        border-bottom: 1px solid black;
     }
 
 
