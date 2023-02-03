@@ -1,7 +1,7 @@
 [
     {
         "name": "Rock Paper Scissors",
-        "url": "https://noahstegman.github.io/rockpaperscissors",
+        "url": "https://nosteg.dev/rockpaperscissors",
         "img": "../src/assets/img/rps.png",
         "description" : "This was a simple website I made using only JQuery/JavaScript to create a came of Rock/Paper/Scissors"
     },
@@ -13,20 +13,20 @@
     },
     {
         "name": "Furry Friend Finder",
-        "url": "https://google.com",
-        "img": "../src/assets/img/rps.png",
+        "url": "https://nosteg.dev/furryfriendfinder",
+        "img": "../src/assets/img/fff.png",
         "description" : "Furry Friend Finder was an application I built using Python, Flask, and front end languages. The site uses the Petfinder API to ask you a few questions about what kind of dog you are looking for, and provides 5 dogs availabile for adoption near you."
     },
     {
         "name": "Meme-A-Day",
-        "url": "https://google.com/",
-        "img": "../src/assets/img/rps.png",
+        "url": "https://nosteg.dev/mad",
+        "img": "../src/assets/img/mad.png",
         "description" : "A Simple website built with Python/Flask that provides a popular meme from a few Reddit Subreddits from the day."
     },
     {
         "name": "Wedding Website",
         "url": "https://delanie-noah.wedding/",
         "img": "../src/assets/img/dn_wedding.png",
-        "description" : "Instead of using a tradition RSVP website, I built our own site by hand for our Wedding. I used HTML,CSS, and some JavaScript. Hosting it via a Ubuntu VM running NGINX"
+        "description" : "Instead of using a traditional RSVP website, I built our own site by hand for our Wedding. I used HTML,CSS, and some JavaScript. Hosting it via a Ubuntu VM running NGINX"
     }
 ]
