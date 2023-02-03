@@ -8,7 +8,7 @@ import footerView from '../components/footer.vue'
 <template>
     <navView :notHome="true"/>
     <div class="link-wrapper">
-        <a href="../src/assets/pdf/StegmanNoahResume.pdf"><div class="resume">Resume.PDF</div></a>
+        <a href="/pdf/StegmanNoahResume.pdf"><div class="resume">Resume.PDF</div></a>
         <div class="email">stegmannoah@gmail.com</div>
     </div>
     <footerView />
