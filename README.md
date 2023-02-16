@@ -1,6 +1,6 @@
 # Portfolio-Vue
 
-This is my portfolio. I wrote it mainly using VueJS
+This is my portfolio. I wrote it using VueJS for the front-end framework. It is hosted on a DigitalOcean Ubuntu VM
 
 ## Project Setup
 
